@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FreeFolio - Freelancer Portfolio Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Sachi</span>Verma</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Education</a>
+                <a href="#service" class="nav-item nav-link">Skill</a>
+                <a href="#projects" class="nav-item nav-link">Projects</a>
+                <!--a href="#Certifications" class="nav-item nav-link">Certificates</a>-->
+                <!--<a href="#testimonial" class="nav-item nav-link">Review</a>-->
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+            </div>
+            <a href="#contact" class="btn btn-outline-primary d-none d-lg-block">Contact Me!</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.png" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Sachi Verma</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Student, Analyst, Designer, Developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="https://drive.google.com/file/d/1U3BZ_h5T0y651BfAu9xlEMZh7xzR_SIE/view?usp=sharing" class="btn btn-outline-light mr-5">Download CV</a>
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <!--<h3 class="mb-4">Analyst & App Developer</h3>-->
+                    <p>Driven by Curiosity, Fueled by Ambition! I have a passion for innovation and want to make people’s lives easier. On a journey, to connect humanity with technology.<br>
+                        Alongside technology; reading, writing, painting, and sketching are my go to activities which fuel my creativity. I strive to create an environment where technology is not just a tool but a means to enrich the human experience. On a journey to inspire innovative mindsets!
+                        <br><br>(And apart from all this, on a daily basis I struggle to differentiate between a T-shirt and a shirt).</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Sachi Verma</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">1 March 2003</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">B.Tech</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">Just a Student!</span></h6></div>
+                    </div>
+                    <!--<a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+<!-- Qualification Start -->
+<div class="container-fluid py-5" id="qualification">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Expertise</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Education & Experience</h1>
+        </div>
+        <div class="row align-items-center">
+            <!-- Education Section -->
+            <div class="col-lg-6">
+                <h3 class="mb-4">My Education</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Bachelor of Technology in Computer Science</h5>
+                        <p class="mb-2"><strong>Kalinga Institute of Industrial Technology</strong> | <small>2021 - 2025</small></p>
+                        <p>Specializing in Data Science, Machine Learning, and App Development with a keen interest in blending technology and creativity.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Higher Seconday Education</h5>
+                        <p class="mb-2"><strong>Maharashtra Board</strong> | <small>2019 - 2021</small></p>
+                        <p>Subjects including Maths, Science and Bi-focal Computer Science</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Council for the Indian School Certificate Examinations</h5>
+                        <p class="mb-2"><strong>The Bishop's Co-Ed School, Undri</strong> | <small>2011 - 2019</small></p>
+                        <p>Subjects including Maths, Science and Computer Applications</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="col-lg-6">
+                <h3 class="mb-4">My Experience</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Vice Lead</h5>
+                        <p class="mb-2"><strong>Microsoft Learn Student Ambassadors - KIIT Chapter</strong> | <small>2021 - 2024</small></p>
+                        <p>Led a team of 150+ members to coordinate community activities. Planned and executed numerous events, attracting a cumulative audience of over 5000 students. These events fostered strong connections within the community.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Senior Executive</h5>
+                        <p class="mb-2"><strong>KIIT Entrepreneurship Cell</strong> | <small>2022 - 2024</small></p>
+                        <p>Ideated numerous flagship events such as the Entrepreneurship Summit and Internship Camp with a successful footfall of 2,000 students. Managed interactions with honourable dignitaries such as Mr. Arsh Goyal and Mr. Sandeep Jain.</p>
+                    </div>
+                    <div class="position-relative mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                        <h5 class="font-weight-bold mb-1">Freelance App Developer</h5>
+                        <p class="mb-2"><strong>Self-Initiated</strong> | <small>2021 - Present</small></p>
+                        <p>Developed intuitive apps using Flutter and Dart, with a focus on usability and innovative features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Qualification End -->
+
+<!-- Skill Start -->
+<div class="container-fluid py-5" id="skill">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Flutter</h6>
+                        <h6 class="font-weight-bold">90%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Dart</h6>
+                        <h6 class="font-weight-bold">85%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">HTML & CSS</h6>
+                        <h6 class="font-weight-bold">95%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Figma</h6>
+                        <h6 class="font-weight-bold">90%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Canva</h6>
+                        <h6 class="font-weight-bold">85%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">JavaScript</h6>
+                        <h6 class="font-weight-bold">90%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Machine Learning (Python)</h6>
+                        <h6 class="font-weight-bold">85%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Data Visualization (Tableau, Matplotlib)</h6>
+                        <h6 class="font-weight-bold">80%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="skill mb-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-bold">Computer Networks</h6>
+                        <h6 class="font-weight-bold">85%</h6>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Skill End -->
+
+
+
+   <!-- Services Start -->
+<div class="container-fluid pt-5" id="service">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Domain</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My domains</h1>
+        </div>
+        <div class="row pb-3">
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Web Design</h4>
+                </div>
+                <p>Designing user-friendly and aesthetically pleasing websites with a focus on responsive layouts, modern design principles, and seamless user experience.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Web Development</h4>
+                </div>
+                <p>Building robust, scalable, and efficient web applications using modern technologies and frameworks tailored to client needs.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Apps Design</h4>
+                </div>
+                <p>Creating intuitive and visually appealing mobile app designs that ensure a seamless user journey across different devices.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Apps Development</h4>
+                </div>
+                <p>Developing cross-platform mobile applications using Flutter and Dart, focusing on performance, scalability, and user-centric features.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Content Creation</h4>
+                </div>
+                <p>Producing high-quality, engaging content for blogs, websites, and social media platforms tailored to target audiences.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fa fa-2x fa-shield-alt service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Cyber Security</h4>
+                </div>
+                <p>Implementing security measures to protect applications and systems from potential threats, ensuring data integrity and user safety.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services End -->
+
+<div class="container-fluid pt-5 pb-3" id="projects">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mb-2">
+                <ul class="list-inline mb-4" id="portfolio-flters">
+                    <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".design">Design</li>
+                    <li class="btn btn-sm btn-outline-primary m-1" data-filter=".development">Development</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio-container">
+            <!-- Finance Tracker -->
+            <div class="col-lg-6 col-md-6 mb-4 portfolio-item design development">
+                <div class="flipCard">
+                    <div class="card" onclick="this.classList.toggle('flipped');">
+                        <div class="side front">
+                            <img src="img/Finance Tracker.png" alt="Finance Tracker">
+                        </div>
+                        <div class="side back">
+                            <h4>Finance Tracker</h4>
+                            <p>A comprehensive tool for tracking personal finances.</p>
+                            <a href="https://github.com/Me-Micco/Finance-Tracker" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Stock Market Analysis -->
+            <div class="col-lg-6 col-md-6 mb-4 portfolio-item development">
+                <div class="flipCard">
+                    <div class="card" onclick="this.classList.toggle('flipped');">
+                        <div class="side front">
+                            <img src="img/portfolio-4.jpg" alt="Stock Market Analysis">
+                        </div>
+                        <div class="side back">
+                            <h4>Stock Market Analysis</h4>
+                            <p>Predictive analysis tool using Machine Learning.</p>
+                            <a href="https://github.com/username/stock-market-prediction" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FlyHigh App -->
+            <div class="col-lg-6 col-md-6 mb-4 portfolio-item development">
+                <div class="flipCard">
+                    <div class="card" onclick="this.classList.toggle('flipped');">
+                        <div class="side front">
+                            <img src="img/portfolio-2.jpg" alt="FlyHigh App">
+                        </div>
+                        <div class="side back">
+                            <h4>Fly High Application</h4>
+                            <p>An innovative app enhancing travel experiences.</p>
+                            <a href="https://github.com/username/flyhigh-app" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- E-Femni Website -->
+            <div class="col-lg-6 col-md-6 mb-4 portfolio-item design">
+                <div class="flipCard">
+                    <div class="card" onclick="this.classList.toggle('flipped');">
+                        <div class="side front">
+                            <img src="img/E-Femni.png" alt="E-Femni Website">
+                        </div>
+                        <div class="side back">
+                            <h4>E-Femni Website</h4>
+                            <p>A platform empowering women through technology.</p>
+                            <a href="https://github.com/username/e-femni-website" target="_blank">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+
+    <!-- Blog Start -->
+<div class="container-fluid pt-5" id="blog">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+        </div>
+        <div class="row">
+            <!-- MLSA 2022 Experience -->
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded w-100" src="img/2022 experience.jpg" alt="MLSA 2022 Experience">
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1" style="color: #b49498;">13</h4>
+                        <small class="text-white text-uppercase">Jan</small>
+                    </div>
+                </div>
+                <h5 class="font-weight-medium mb-4">MLSA 2022 Experience!</h5>
+                <a class="btn btn-sm btn-outline-primary py-2" href="https://medium.com/msackiit/2022-and-thats-a-wrap-393def75a4f0" target="_blank">Read More</a>
+            </div>
+            <!-- A Dive Into DevOps -->
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded w-100" src="img/devops.jpg" alt="A Dive Into DevOps">
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1" style="color: #b49498;">19</h4>
+                        <small class="text-white text-uppercase">Aug</small>
+                    </div>
+                </div>
+                <h5 class="font-weight-medium mb-4">A Dive Into DevOps</h5>
+                <a class="btn btn-sm btn-outline-primary py-2" href="https://medium.com/msackiit/a-dive-into-devops-c4be586cb5f6" target="_blank">Read More</a>
+            </div>
+            <!-- Women in Tech -->
+            <div class="col-lg-4 mb-5">
+                <div class="position-relative mb-4">
+                    <img class="img-fluid rounded w-100" src="img/women in tech.png" alt="Women in Tech">
+                    <div class="blog-date">
+                        <h4 class="font-weight-bold mb-n1" style="color: #b49498;">5</h4>
+                        <small class="text-white text-uppercase">Mar</small>
+                    </div>
+                </div>
+                <h5 class="font-weight-medium mb-4">Women in Tech - Timeline</h5>
+                <a class="btn btn-sm btn-outline-primary py-2" href="https://medium.com/msackiit/women-in-technology-e43d21f52379" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
